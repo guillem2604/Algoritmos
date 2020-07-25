@@ -1,6 +1,6 @@
 class Hanoi_1 {
   public static void main(String[] args) {
-    System.out.println("Hanoi de 5 discos es: \n"+ Main.hanoi (1,2,3,3));
+    System.out.println("Hanoi de 5 discos es: \n"+ Main.hanoi (1,2,3,5));
   }
 
   public static String hanoi (int ini, int aux, int fin, int cantDiscos)
